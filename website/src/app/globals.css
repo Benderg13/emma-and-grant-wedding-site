@@ -30,3 +30,25 @@ h3 {
 font-family: var(--font-montserrat);
 }
 
+h1 {
+  margin: 0;
+  padding: .5em;
+  font-size: 56px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  font-family: var(--font-tanPearl);
+}
+
+form {
+  font-family: var(--font-montserrat);
+  background-color: var(--darker-pink);
+  color: var(--navy-blue)
+}
+
+ input {
+  font-family: var(--font-montserrat);
+  background-color: var(--lighter-pink);
+  color: var(--navy-blue)
+ }
