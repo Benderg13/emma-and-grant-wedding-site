@@ -102,12 +102,21 @@ export default function RSVP() {
                             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
                     </div>
                     <div>
-                        <label>Extras</label>
+                        <label>Others in your party?</label>
                         <input 
                             required 
                             type="number" 
                             name="extras" 
                             placeholder='Spouse and Children if applicable'
+                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
+                    </div>
+                    <div>
+                        <label>Dietary Restrictions</label>
+                        <input 
+                            required 
+                            type="text" 
+                            name="diet" 
+                            placeholder='list all that apply'
                             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
                     </div>
                     <div>

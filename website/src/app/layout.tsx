@@ -20,6 +20,9 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Emma and Grant's Wedding",
   description: "Emma and Grant's Wedding",
+  icons: {
+    icon: 'flavicon.ico',
+  }
 };
 
 export default function RootLayout({ 

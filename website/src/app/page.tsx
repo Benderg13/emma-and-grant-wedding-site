@@ -19,7 +19,7 @@ export default function Home() {
         </div>
         <div>
         {/* the ring thing*/}
-        <h1 className={styles.bgHeader}>
+        <h1 className="text-center text-[56px] font-extrabold leading-[45px] font-local m-0 p-[.5em] text-shadow-lg/45 text-white">
           Emma & Grant
         </h1>
         </div>
