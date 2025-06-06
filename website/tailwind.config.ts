@@ -13,16 +13,17 @@ module.exports = {
     extend: {
       colors: {
         // Define your custom colors here using hex codes
-        'nav-start': '#DBA395', // Your custom blue for the gradient start
-        'nav-end': '#EFCFC7',   // Your custom indigo/purple for the gradient end
-        'link-hover': '#282F4B', // Your custom lighter blue for text hover
-        'button-hover-bg': '#DBA395', // White with 10% opacity (for hover background)
-        // You can add more custom colors as needed
-        // 'my-primary-blue': '#1a2b3c',
-        // 'my-accent-green': '#abcde0',
+        'nav-start': '#DBA395',
+        'nav-end': '#EFCFC7',
+        'link-hover': '#DBA395',
+        'button-hover-bg': '#DBA395',
+        'navy-blue': '#282F4B',
+        'dark-pink': '#DBA395',
+        'light-pink': '#EFCFC7',
       },
       fontFamily: {
-        sans: ['var(--font-tan-pearl)', ...defaultTheme.fontFamily.sans], // Assuming you kept 'tan-pearl'
+        local: ['var(--font-tanPearl)', ...defaultTheme.fontFamily.sans],
+        mono: ['var(--font-montserrat)', ...defaultTheme.fontFamily.mono],
       },
     },
   },

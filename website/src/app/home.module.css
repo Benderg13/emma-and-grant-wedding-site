@@ -1,0 +1,42 @@
+.bgWrap {
+  position: absolute;
+  height: 30vh;
+  width: 100vw;
+  overflow: hidden;
+  z-index: -1;
+  padding: 12em;
+}
+.bgHeader {
+  margin: 0;
+  padding: .5em;
+  font-size: 56px;
+  font-weight: 800;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  font-family: var(--font-tanPearl);
+}
+
+.bgTitle {
+  margin: 0;
+  font-size: 40px;
+  padding-top: 40vh;
+  color: #fff;
+  text-align: center;
+  font-style: bold;
+  font-family: var(--font-tanPearl);
+}
+
+.bgText {
+  margin: 0;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  /* font-style: italic; */
+  font-family: var(--font-montserrat);
+}
+
+.bgLinks {
+  text-decoration: none;
+  color: #fff;
+}

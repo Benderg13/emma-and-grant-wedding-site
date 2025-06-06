@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Montserrat } from "next/font/google"; 
 import localFont from "next/font/local";
 import Navbar from "./components/Navbar";
+import Footer from "./components/Footer"
 import "./globals.css";
 
 const tanPearl = localFont({
@@ -28,7 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" >
-      <body className={`${montserrat.variable} ${tanPearl.className} antialiased`}>
+      <body className={` ${tanPearl.className} ${montserrat.variable} antialiased`}>
         <Navbar />
         <div className="flex-grow">
           {children}

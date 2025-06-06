@@ -35,16 +35,16 @@ export default function Navbar() {
           `hidden` hides them by default on smaller screens.
         */}
         <div className="hidden md:flex">
-          <Link href="/" className="text-white hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:button-hover-bg hover:bg-opacity-10">
+          <Link href="/" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-link-hover hover:bg-opacity-10">
             Home
           </Link>
-          <Link href="/rsvp" className="text-white hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
+          <Link href="/rsvp" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg- hover:bg-opacity-10">
             RSVP
           </Link>
-          <Link href="/hotels" className="text-white hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
+          <Link href="/hotels" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
             Hotels
           </Link>
-          <Link href="/registry" className="text-white hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
+          <Link href="/registry" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
             Registry
           </Link>
           
