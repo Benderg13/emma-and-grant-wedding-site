@@ -6,16 +6,6 @@
   z-index: -1;
   padding: 12em;
 }
-.bgHeader {
-  margin: 0;
-  padding: .5em;
-  font-size: 56px;
-  font-weight: 800;
-  color: #fff;
-  line-height: 45px;
-  text-align: center;
-  font-family: var(--font-tanPearl);
-}
 
 .bgTitle {
   margin: 0;
