@@ -70,7 +70,7 @@ export default function RSVP() {
     return(
         <main>
             <div className='min-h-screen flex items-center justify-center '>
-                <div className="bg-dark-pink p-8 rounded-lg max-w-md w-full"> 
+                <div className="bg-navy-blue p-8 rounded-lg max-w-md w-full"> 
                 <h1 className="text-2xl font-bold mb-6 text-center ">RSVP</h1>
                     {errorMessage && (
                         <p className="mb-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-md text-center">
@@ -82,7 +82,7 @@ export default function RSVP() {
                             {submittedMessage}
                         </p>
                     )}
-                <form onSubmit={onSubmit} className="space-y-4">
+                <form onSubmit={onSubmit} className="space-y-4 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm">
                     <div>
                         <label>Your Email</label>
                         <input 
@@ -90,7 +90,7 @@ export default function RSVP() {
                             type="text" 
                             name="email" 
                             placeholder='Your Email' 
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
+                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <div>
                         <label>Your Name</label>
@@ -99,7 +99,7 @@ export default function RSVP() {
                             type="text" 
                             name="name" 
                             placeholder='Your Name'
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
+                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <div>
                         <label>Others in your party?</label>
@@ -108,7 +108,7 @@ export default function RSVP() {
                             type="number" 
                             name="extras" 
                             placeholder='Spouse and Children if applicable'
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
+                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <div>
                         <label>Dietary Restrictions</label>
@@ -117,7 +117,7 @@ export default function RSVP() {
                             type="text" 
                             name="diet" 
                             placeholder='list all that apply'
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
+                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <div>
                         <label>Invite Code</label>
@@ -127,12 +127,12 @@ export default function RSVP() {
                             type="text" 
                             name="invite_code" 
                             placeholder='Invite Code'
-                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500 sm:text-sm"/>
+                            className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <button 
                         type="submit"
-                        className={`w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-white ${
-                        isLoading ? 'bg-gray-400 cursor-not-allowed' : 'bg-dark-pink hover:bg-dark-pink focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500'
+                        className={`bg-lighter-pink w-full py-2 px-4 border border-transparent rounded-md shadow-sm text-sm font-medium text-navy-blue ${
+                        isLoading ? 'bg-gray-400 cursor-not-allowed' : 'bg-darker-pink hover:bg-darker-pink focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-lighter-pink'
                         }`}
                         disabled={isLoading} // Disable button when loading
                     >
