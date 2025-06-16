@@ -35,16 +35,16 @@ export default function Navbar() {
           `hidden` hides them by default on smaller screens.
         */}
         <div className="hidden md:flex">
-          <Link href="/" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-link-hover hover:bg-opacity-10">
+          <Link href="/" className="text-light-pink transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
             Home
           </Link>
-          <Link href="/rsvp" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg- hover:bg-opacity-10">
+          <Link href="/rsvp" className="text-light-pink transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
             RSVP
           </Link>
-          <Link href="/hotels" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
+          <Link href="/hotels" className="text-light-pink transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
             Hotels
           </Link>
-          <Link href="/registry" className="text-light-pink hover:text-link-hover transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
+          <Link href="/registry" className="text-light-pink transition-colors duration-200 text-lg p-2 rounded-md hover:bg-white hover:bg-opacity-10">
             Registry
           </Link>
           
@@ -58,7 +58,7 @@ export default function Navbar() {
         */}
         <button
           onClick={toggleMenu}
-          className="md:hidden text-white focus:outline-none p-2 rounded-md hover:bg-white hover:bg-opacity-10 transition-colors duration-200"
+          className="md:hidden text-light-pink focus:outline-none p-2 rounded-md hover:bg-white hover:bg-opacity-10 transition-colors duration-200"
           aria-controls="mobile-menu"
           aria-expanded={isOpen}
         >
@@ -95,28 +95,28 @@ export default function Navbar() {
       */}
       <div
         id="mobile-menu"
-        className={`fixed inset-0 bg-blue-800 bg-opacity-95 transform ${
+        className={`fixed inset-0 bg-navy-blue bg-opacity-95 transform ${
           isOpen ? 'translate-x-0' : 'translate-x-full'
         } transition-transform duration-300 ease-in-out md:hidden flex flex-col items-center justify-center space-y-8`}
         style={{ zIndex: 40 }} // Ensure it's below the main nav but above other content
       >
-        <Link href="/" className="text-white text-3xl hover:text-blue-200 transition-colors duration-200" onClick={toggleMenu}>
+        <Link href="/" className="text-lighter-pink text-3xl hover:text-darker-pink hover:bg-opacity-10 transition-colors duration-200" onClick={toggleMenu}>
           Home
         </Link>
-        <Link href="/rsvp" className="text-white text-3xl hover:text-blue-200 transition-colors duration-200" onClick={toggleMenu}>
+        <Link href="/rsvp" className="text-lighter-pink text-3xl hover:text-darker-pink hover:bg-opacity-10 transition-colors duration-200" onClick={toggleMenu}>
           RSVP
         </Link>
-        <Link href="/hotels" className="text-white text-3xl hover:text-blue-200 transition-colors duration-200" onClick={toggleMenu}>
+        <Link href="/hotels" className="text-lighter-pink text-3xl hover:text-darker-pink hover:bg-opacity-10 transition-colors duration-200" onClick={toggleMenu}>
           Hotels
         </Link>
-        <Link href="/registry" className="text-white text-3xl hover:text-blue-200 transition-colors duration-200" onClick={toggleMenu}>
+        <Link href="/registry" className="text-lighter-pink text-3xl hover:text-darker-pink hover:bg-opacity-10 transition-colors duration-200" onClick={toggleMenu}>
           Registry
         </Link>
 
         {/* Close Button for Mobile Menu */}
         <button
           onClick={toggleMenu}
-          className="absolute top-6 right-6 text-white focus:outline-none p-2 rounded-md hover:bg-white hover:bg-opacity-10 transition-colors duration-200"
+          className="absolute top-6 right-6 text-lighter-pink focus:outline-none p-2 rounded-md hover:bg-white hover:bg-opacity-10 transition-colors duration-200"
           aria-label="Close menu"
         >
           <svg
