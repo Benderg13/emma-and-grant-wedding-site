@@ -24,18 +24,16 @@ export default function Home() {
           />
         </div>
         <div>
-        {/* the ring thing*/}
-        <h1 className="text-center text-[56px] font-extrabold leading-[45px] font-local m-0 p-[.5em] text-shadow-lg/45 text-white">
+        <h1 className="text-center text-6xl md:text-8xl font-extrabold leading-relaxed font-local m-0 pt-9 text-shadow-lg/45 text-white">
           Emma & Grant
         </h1>
         </div>
-        <div className="m-6">
+        <div className="m-3 pt-42 md:pt-50">
           <h3 className={styles.bgTitle}>
           Our Wedding
         </h3>
         <p className={styles.bgText}>4:30pm Saturday, October 25, 2025<br/>2684 Columbus St, Grove City, OH 43123</p>
         </div>
-        {/* pictures in a grid style */}
         <div className="container mx-auto p-4">
           <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6" >
           <div className="">

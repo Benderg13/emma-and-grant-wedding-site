@@ -1,6 +1,6 @@
 .bgWrap {
   position: absolute;
-  height: 30vh;
+  height: 3vh;
   width: 100vw;
   overflow: hidden;
   z-index: -1;
@@ -10,7 +10,6 @@
 .bgTitle {
   margin: 0;
   font-size: 40px;
-  padding-top: 40vh;
   color: #fff;
   text-align: center;
   font-style: bold;
