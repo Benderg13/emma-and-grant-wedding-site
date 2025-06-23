@@ -5,7 +5,7 @@ export default function Page() {
         <main>
             <div className='min-h-screen flex items-center justify-center '>
                 <div className="bg-navy-blue p-8 rounded-lg max-w-md w-full"> 
-                <h1 className="text-2xl font-bold mb-6 text-center ">Registry</h1>
+                <h1 className="text-4xl font-bold mb-6 text-center ">Registry</h1>
                 <ul>
                     <li className="m-2">
                     <a href="https://www.amazon.com/wedding/registry/1AOXE3YE8RW04" target="_blank">

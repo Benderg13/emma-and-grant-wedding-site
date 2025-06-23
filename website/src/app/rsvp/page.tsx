@@ -71,7 +71,7 @@ export default function RSVP() {
         <main>
             <div className='min-h-screen flex items-center justify-center '>
                 <div className="bg-navy-blue p-8 rounded-lg max-w-md w-full"> 
-                <h1 className="text-2xl font-bold mb-6 text-center ">RSVP</h1>
+                <h1 className="text-4xl font-bold mb-6 text-center ">RSVP</h1>
                     {errorMessage && (
                         <p className="mb-4 p-3 bg-red-100 border border-red-400 text-red-700 rounded-md text-center">
                             {errorMessage}
@@ -102,7 +102,7 @@ export default function RSVP() {
                             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <div>
-                        <label>Others in your party?</label>
+                        <label>Total Number Attending?</label>
                         <input 
                             required 
                             type="number" 
