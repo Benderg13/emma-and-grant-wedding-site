@@ -53,3 +53,9 @@ form {
   background-color: var(--lighter-pink);
   color: var(--navy-blue)
  }
+
+ select {
+  font-family: var(--font-montserrat);
+  background-color: var(--lighter-pink);
+  color: var(--navy-blue)
+ }

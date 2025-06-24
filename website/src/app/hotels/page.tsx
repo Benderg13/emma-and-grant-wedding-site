@@ -4,7 +4,7 @@ export default function Page() {
         <main>
             <div className='min-h-screen flex items-center justify-center '>
                 <div className="bg-navy-blue p-8 rounded-lg max-w-xl w-full"> 
-                <h1 className="text-4xl font-bold mb-6 text-center ">Hotels in the Area</h1>
+                <h1 className="text-4xl font-bold mb-6 text-center ">Some Hotels in the Area</h1>
                 <ul>
                     <li className="m-2">
                         <h2 className="text-2xl">Fairfield Inn & Suites Columbus Grove City</h2>

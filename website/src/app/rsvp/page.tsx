@@ -102,9 +102,18 @@ export default function RSVP() {
                             className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm"/>
                     </div>
                     <div>
+                        <label>Will you be able to join us at our wedding?</label>
+                        <select 
+                        required 
+                        name="attending"
+                        className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-navy-blue focus:border-navy-blue sm:text-sm">
+                            <option value="accept">Joyfully Accept</option>
+                            <option value="decline">Regretfully Decline</option>
+                        </select>
+                    </div>
+                    <div>
                         <label>Total Number Attending?</label>
-                        <input 
-                            required 
+                        <input  
                             type="number" 
                             name="extras" 
                             placeholder='Spouse and Children if applicable'
@@ -112,8 +121,7 @@ export default function RSVP() {
                     </div>
                     <div>
                         <label>Dietary Restrictions</label>
-                        <input 
-                            required 
+                        <input  
                             type="text" 
                             name="diet" 
                             placeholder='list all that apply'
