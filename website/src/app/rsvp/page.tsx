@@ -113,7 +113,7 @@ export default function RSVP() {
                         </select>
                     </div>
                     <div>
-                        <label>Total Number Attending?</label>
+                        <label>Total Number Attending</label>
                         <input  
                             type="number" 
                             name="extras" 
